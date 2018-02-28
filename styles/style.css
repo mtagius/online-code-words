@@ -1,0 +1,38 @@
+
+
+
+#mainContainer {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    border-width: 3px;
+	border-style: solid;
+    border-color: #363636;
+    margin-bottom: 20px;
+    background-color: rgb(43, 43, 43);
+}
+
+td {
+    padding: 15px;
+}
+
+.default {
+    color: white;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.civ {
+    color: burlywood;
+}
+.ass {
+    color: black;
+}
+
+.not-flipped {
+    font-style: italic;
+}

@@ -1,0 +1,130 @@
+{
+    "main": [
+        {
+            "word": "SERVER",
+            "status": "red",
+            "flipped": "true"
+        },
+        {
+            "word": "SWING",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "GROUND",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "LOG",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "PARK",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "MUG",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "STRIKE",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "VAN",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "POST",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "HORSESHOE",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "HONEY",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "EMBASSY",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "MOON",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "WIND",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "PITCH",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "ROUND",
+            "status": "blue",
+            "flipped": "false"
+        },
+        {
+            "word": "SNOW",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "TIME",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "GRASS",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "WITCH",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "WHALE",
+            "status": "ass",
+            "flipped": "false"
+        },
+        {
+            "word": "SOUND",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "TUBE",
+            "status": "red",
+            "flipped": "false"
+        },
+        {
+            "word": "CRASH",
+            "status": "civ",
+            "flipped": "false"
+        },
+        {
+            "word": "CHARGE",
+            "status": "red",
+            "flipped": "false"
+        }
+    ],
+    "code": "n54bu"
+}
