@@ -23,7 +23,7 @@ function drawBoard() {
                     htmlBoard += "<td class='default'>" + board.main[i].word + "</td>";
                 }
             }
-            if((i + 1) % 5 == 0) {
+            if(((i + 1) % 5 == 0) && (i + 1 != 25)) {
                 htmlBoard += "</tr><tr>";
             }
         }
