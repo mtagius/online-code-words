@@ -4,9 +4,9 @@
 #mainContainer {
     position: absolute;
     top: 10%;
-    left: 15%;
-    width: 70%;
-    height: 70%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
     border-width: 3px;
 	border-style: solid;
     border-color: #363636;
@@ -17,11 +17,16 @@
 table {
     width: 100%;
     height: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+
 }
 
 td {
     padding: 15px;
     text-align: center;
+    max-width: 0px;
+    max-height: 0px;
 }
 
 .default {
@@ -29,22 +34,22 @@ td {
 }
 .red {
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: red;
 }
 .blue {
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: blue;
 }
 .civ {
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: burlywood;
 }
 .ass {
     color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: black;
 }
 
