@@ -1,5 +1,19 @@
+@font-face {
+	font-family: 'boardFont';
+	src: url('../fonts/KeepCalm-Medium.ttf') format('truetype'), url("../fonts/KeepCalm-Medium.eot");
+}
 
+body {
+    background-color: #FFFDEA;
+    font-family: boardFont, helvetica, sans-serif
+}
 
+#titleText {
+    float: left;
+    margin: 30px;
+    color: #464646;
+    font-size: 32px;
+}
 
 #mainContainer {
     position: absolute;
@@ -7,11 +21,7 @@
     left: 10%;
     width: 80%;
     height: 80%;
-    border-width: 3px;
-	border-style: solid;
-    border-color: #363636;
     margin-bottom: 20px;
-    background-color: rgb(43, 43, 43);
 }
 
 table {
@@ -19,7 +29,6 @@ table {
     height: 100%;
     border-spacing: 10px;
     border-collapse: separate;
-
 }
 
 td {
@@ -27,32 +36,57 @@ td {
     text-align: center;
     max-width: 0px;
     max-height: 0px;
+    color: #353535;
 }
 
 .default {
-    color: white;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: #777777;
 }
 .red {
-    color: black;
     border-radius: 10px;
-    background-color: red;
+    background-color: #E27171;
 }
 .blue {
-    color: black;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #7B7BE5;
 }
 .civ {
-    color: black;
     border-radius: 10px;
-    background-color: burlywood;
+    background-color: #F4D29F;
 }
 .ass {
-    color: white;
+    color: #FFFDEA;
     border-radius: 10px;
-    background-color: black;
+    background-color: #282828;
 }
 
 .not-flipped {
-    font-style: italic;
+    border-width: 5px;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: #444444;
+    cursor: pointer;
+}
+
+.not-flipped:hover {
+    border-style: solid;
+}
+
+#codeModalButton {
+    float: right;
+    margin: 30px;
+    background-color: #fffdea;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #777777;
+    color: #464646;
+    font-size: 20px;
+    padding: 10 15 10 15;
+}
+
+#codeModalButton:hover {
+    border-style: solid;
 }

@@ -14,7 +14,7 @@ function drawBoard() {
                 if(board.main[i].flipped == "true") {
                     htmlBoard += "<td class='" + board.main[i].status + "'>" + board.main[i].word + "</td>";
                 } else {
-                    htmlBoard += "<td class='" + board.main[i].status + "' onclick='flipTile(" + i + ")'><span class='not-flipped'>" + board.main[i].word + "</span></td>";
+                    htmlBoard += "<td class='" + board.main[i].status + " not-flipped' onclick='flipTile(" + i + ")'>" + board.main[i].word + "</td>";
                 }
             } else {
                 if(board.main[i].flipped == "true") {
