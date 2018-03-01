@@ -10,7 +10,7 @@ body {
 
 #titleText {
     float: left;
-    margin: 30px;
+    margin: 30px 0px 30px 30px;
     color: #464646;
     font-size: 32px;
 }
@@ -29,6 +29,7 @@ table {
     height: 100%;
     border-spacing: 10px;
     border-collapse: separate;
+    font-size: 23px;
 }
 
 td {
@@ -84,9 +85,96 @@ td {
     border-color: #777777;
     color: #464646;
     font-size: 20px;
-    padding: 10 15 10 15;
+    padding: 10px 15px 10px 15px;
 }
 
 #codeModalButton:hover {
     border-style: solid;
+}
+
+#controls {
+    float: right;
+    margin: 30px;
+}
+
+#controls > * {
+    margin: 0px 6px 0px 6px;
+}
+
+#codeMasterCode {
+    display: inline;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: #777777;
+    padding: 8px;
+}
+
+#generateBoard {
+    background-color: #fffdea;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #777777;
+    color: #464646;
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+}
+
+#generateBoard:hover {
+    border-style: solid;
+}
+
+.toggle.switches {
+    color: white; 
+    background-color: #7B7BE5; 
+}
+.toggle.switches .toggle-off {
+    color: white;
+    background-color: #E27171;
+}
+.toggle.switches .btn:hover, .btn:focus {
+    color: white;
+}
+
+@media only screen and (min-width: 2000px) {
+    table {
+        font-size: 30px;
+    }
+    #titleText {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    table {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        width: 900px;
+    }
+    #mainContainer {
+        top: 10%;
+        left: 10%;
+        width: 900px;
+        height: 900px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    #controls {
+        float: right;
+        margin: 20px;
+    }
+    #codeModalButton {
+        margin: 20px;
+        font-size: 18px;
+        padding: 8px 12px 8px 12px;
+    }
+    #titleText {
+        margin: 20px;
+        font-size: 23px;
+    }
 }
