@@ -5,7 +5,7 @@
 
 body {
     background-color: #FFFDEA;
-    font-family: boardFont, helvetica, sans-serif
+    font-family: boardFont, helvetica, sans-serif;
 }
 
 #titleText {
@@ -16,8 +16,7 @@ body {
 }
 
 #mainContainer {
-    position: absolute;
-    top: 10%;
+    position: relative;
     left: 10%;
     width: 80%;
     height: 80%;
@@ -35,9 +34,9 @@ table {
 td {
     padding: 15px;
     text-align: center;
-    max-width: 0px;
-    max-height: 0px;
+    width: 20%;
     color: #353535;
+    word-break: break-all;
 }
 
 .default {
@@ -150,16 +149,33 @@ td {
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 800px) {
-    body {
-        width: 900px;
-    }
+@media only screen and (max-width: 1000px) {
     #mainContainer {
-        top: 10%;
-        left: 10%;
-        width: 900px;
-        height: 900px;
-        margin-bottom: 20px;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    table {
+        font-size: 10px;
+    }
+    #codeModalButton {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    table {
+        font-size: 8px;
+    }
+    td {
+        padding: 1px;
+    }
+    #codeModalButton {
+        font-size: 10px;
+    }
+    .not-flipped {
+        border-width: 2px;
     }
 }
 
@@ -170,7 +186,6 @@ td {
     }
     #codeModalButton {
         margin: 20px;
-        font-size: 18px;
         padding: 8px 12px 8px 12px;
     }
     #titleText {
