@@ -84,7 +84,8 @@ function showCodeModal() {
 
 $(document).ready(function() {
     drawBoard();
-    $("#codeModalButton").on('click touchstart', function() {
+    $("#codeModalButton").on('click touchstart', function(e) {
+        e.stopPropagation();
         showCodeModal();
     });
     setInterval(function() {
